@@ -36,3 +36,26 @@
     transform: rotate(360deg);
   }
 }
+.nav-container{
+  background-color: #282c34;
+  padding: 30px 100px;
+  color: #fff;
+  display: flex;
+  justify-content: space-between;
+}
+.nav-container nav ul{
+  display: flex;
+  align-items: center;
+  list-style: none;
+}
+.nav-container nav ul li{
+  margin-right: 20px;
+  font-size: 18px;
+}
+.nav-container nav ul li:last-child{
+  margin-right: 0;
+}
+.nav-container nav ul li a{
+  color: #fff;
+  text-decoration: none;
+}
