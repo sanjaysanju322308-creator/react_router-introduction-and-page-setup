@@ -59,3 +59,21 @@
   color: #fff;
   text-decoration: none;
 }
+.products nav ul{
+  display: flex;
+  list-style: none;
+  padding-left: 100px;
+  padding-top: 20px;
+}
+.products nav ul li{
+  margin-left: 20px;
+}
+.products nav ul li:first-child{
+  margin-left: 0;
+}
+.products nav ul li a{
+  text-decoration: none;
+  color: #000;
+  font-weight: 600;
+  font-size: 20px;
+}

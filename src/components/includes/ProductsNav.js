@@ -4,7 +4,7 @@ import { NavLink, Outlet } from 'react-router-dom'
 export default function ProductNav() {
   return (
     <>
-      <div>
+      <div className='products'>
         <nav>
           <ul>
             <li>
